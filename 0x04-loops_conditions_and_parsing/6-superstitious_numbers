@@ -7,18 +7,18 @@ min=1
 max=20
 
 while [ "$min" -le "$max" ]; do
-echo "$min"
+		echo "$min"
 
-case $min in
-"4")
-echo "bad luck from China"
-;;
-"9")
-echo "bad luck from Japan"
-;;
-"17")
-echo "bad luck from Italy"
-;;
-esac
-((min++))
-done
+			case $min in
+						"4")
+									echo "bad luck from China"
+											;;
+													"9")
+																echo "bad luck from Japan"
+																		;;
+																			        "17")
+																							echo "bad luck from Italy"
+																									;;
+																										esac
+																											((min++))
+																										done
