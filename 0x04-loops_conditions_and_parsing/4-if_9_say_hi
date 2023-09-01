@@ -7,10 +7,11 @@ max=12
 ite=10
 
 while [ "$min" -lt "$max" ]; do
-if [ "$min" -eq "$ite" ]; then
-echo $vari
-else
-echo "$var"
-fi
-((min++))
-done
+		if [ "$min" -eq "$ite" ]; then
+					echo $vari
+						else
+									echo "$var"
+
+										fi
+											((min++))
+										done
